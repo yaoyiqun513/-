@@ -109,8 +109,8 @@ ECMAScript5保留了一下关键字：
 
 
 
-<img src='http://g.gravizo.com/g? 
-digraph G {
+<img src='http://g.gravizo.com/g?
+ digraph G {
    main -> parse -> execute;
    main -> init;
    main -> cleanup;
@@ -119,7 +119,8 @@ digraph G {
    init -> make_string;
    main -> printf;
    execute -> compare;
- }/>
+ }
+'/>
 
 
 
