@@ -108,20 +108,6 @@ ECMAScript5保留了一下关键字：
 | \u**XXXX** | 由4位十六进制数**XXXX**制定的字Unicode字符 |
 
 
-
-<img src='http://g.gravizo.com/g?
- digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
- }
-'/>
-
 ![Alt text](http://g.gravizo.com/g?
   digraph G {
     aize ="4,4";
